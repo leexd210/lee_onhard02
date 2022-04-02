@@ -6,8 +6,30 @@
   <!--Zeichen Set also UniCode in diesem Fall-->
   <meta name="description" content="Meine Erste Website Boii" <!--Wir als Beschreibung bei Suchmaschinen angezeigt-->
   <title>Leonhard´s Personal Site</title>
+  <link rel="stylesheet" href="css/style.css"> <!-- Css Style-->
+
+<!-- CSS Part intern
+  <style media="screen">
+    body{
+      background-color: #E5EFC1;
+    }
+
+    hr{
+      border-color: #557B83;
+      border-width: 5px;
+      border-style: dotted none none none;
+      height: 0px;
+      width: 5%;
+
+    }
+
+    img{
+      height: 150px;
+    }
+  </style>-->
 </head>
 
+<!--<body style="background-color: #E5EFC1;"> Inline CSS-->
 <body>
   <table cellspacing="20">
     <tr>
@@ -15,8 +37,8 @@
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh68XgvGP72ioUrK4SgcdMmI0lkJPaiM2iqA&usqp=CAU" alt="leonhard picture">
       </td>
       <td>
-        <h1>Lee MasterxD</h1>
-        <p><em>Founder and CTO of the <b><a href="http://appbrewery.co">App Brewery</a></b></em></p>
+        <h1 id="heading">Lee MasterxD</h1>
+        <p><em>NOT Founder and CTO of the <b><a href="http://appbrewery.co">App Brewery</a></b></em></p>
         <p>I am a non experienced WebDeveloper.</p>
       </td>
     </tr>
@@ -95,10 +117,10 @@
   <hr>
 
 
-  <h3><a href="hobbies.html">My hobbies</a></h3>
-  <h3><a href="contactme.html">Contact Me</a></h3>
+  <h3 class="linkH3 fontH"><a href="hobbies.html">My hobbies</a></h3>
+  <h3 class="linkH3 fontH"><a href="contactme.html">Contact Me</a></h3>
 
-  <h3><a href="input.html">Meine Input Dinge</a></h3>
+  <h3 class="linkH3 fontH"><a href="input.html">Meine Input Dinge</a></h3>
 
 </body>
 

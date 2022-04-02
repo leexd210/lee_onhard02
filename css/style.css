@@ -1,0 +1,42 @@
+
+  body{
+    background-color: #E5EFC1;
+  }
+
+  hr{
+    border-color: #557B83;
+    border-width: 5px;
+    border-style: dotted none none none;
+    height: 0;
+    width: 5%;
+
+  }
+
+  img{
+    height: 150px;
+  }
+
+  h1{
+    color: blue;
+  }
+
+  h3{
+    color: #39AEA9;
+  }
+
+/********Class Selector*****/
+.linkH3{
+  color: #A2D5AB;
+}
+.linkH3:hover{
+  background-color: #39AEA9;
+}
+
+.fontH{
+  font-style: italic;
+}
+
+/****ID selector******/
+#heading{
+  color: #557B83;
+}
