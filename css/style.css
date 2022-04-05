@@ -38,6 +38,12 @@ hr{
     width: 25%;
     padding-bottom: 2%;
 }
+
+a{
+  font-size: 18px;
+  padding-right: 20px;
+}
+
 .firstSection{
   background-color: #00AFC1;
   padding-bottom: 30px;
