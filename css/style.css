@@ -1,42 +1,87 @@
 
-  body{
-    background-color: #E5EFC1;
-  }
+body{
+  margin: 0;
+  text-align: center;
+  font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
 
-  hr{
-    border-color: #557B83;
-    border-width: 5px;
+h1{
+  margin-top: 0;
+  color: #006778;
+  font-family: 'Sacramento', cursive;
+  font-size: 50px;
+  margin-bottom: 0;
+}
+h2{
+  margin-top: 0;
+  color: #FFD124;
+  font-family: 'Sacramento', cursive;
+  font-size: 40px;
+  margin-bottom: 0;
+}
+h3{
+  margin-top: 0;
+  color: #FFD124;
+  font-family: 'Sacramento', cursive;
+  font-size: 35px;
+  margin-bottom: 0;
+}
+p{
+  color: #FFD124;
+  margin: 0;
+}
+hr{
+    border-color: #00AFC1;
+    border-width: 8px;
     border-style: dotted none none none;
     height: 0;
+    width: 25%;
+    padding-bottom: 2%;
+}
+.firstSection{
+  background-color: #00AFC1;
+  padding-bottom: 30px;
+}
+.secondSection{
+  background-color: #0093AB;
+  padding-top: 50px;
+  padding-bottom: 200px;
+}
+.thirdSection{
+  background-color: #00AFC1;
+}
+
+.bottom-cloud{
+  position: relative;
+  right: 15%;
+}
+
+.top-cloud{
+  position: relative;
+  left: 10%;
+}
+.dartsPicture{
+  width: 10%;
+  height: auto;
+  border-radius: 100%;
+}
+.mePicture{
     width: 5%;
-
-  }
-
-  img{
-    height: 150px;
-  }
-
-  h1{
-    color: blue;
-  }
-
-  h3{
-    color: #39AEA9;
-  }
-
-/********Class Selector*****/
-.linkH3{
-  color: #A2D5AB;
+    height: auto;
+    border-radius: 100%;
 }
-.linkH3:hover{
-  background-color: #39AEA9;
+.gif-skill{
+  width: 10%;
 }
 
-.fontH{
-  font-style: italic;
+.profile{
+  padding-bottom: 1%;
+}
+.skill-row{
+  padding-bottom: 5%;
 }
 
-/****ID selector******/
-#heading{
-  color: #557B83;
+
+.underline{
+  text-decoration-line: underline;
 }
