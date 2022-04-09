@@ -3,32 +3,38 @@ body{
   margin: 0;
   text-align: center;
   font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  font-size: 1em;
 }
 
 h1{
-  margin-top: 0;
+  margin-top: 5px;
   color: #006778;
   font-family: 'Sacramento', cursive;
-  font-size: 50px;
+  font-size: 4rem;
   margin-bottom: 0;
+  font-weight: 700;
+  line-height: 2;
 }
 h2{
   margin-top: 0;
   color: #FFD124;
   font-family: 'Sacramento', cursive;
-  font-size: 40px;
+  font-size: 2.5rem;
   margin-bottom: 0;
 }
 h3{
   margin-top: 0;
   color: #FFD124;
   font-family: 'Sacramento', cursive;
-  font-size: 35px;
+  font-size: 2rem;
   margin-bottom: 0;
 }
 p{
   color: #FFD124;
   margin: 0;
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.5;
 }
 hr{
     border-color: #00AFC1;
@@ -37,20 +43,18 @@ hr{
     height: 0;
     width: 25%;
     padding-bottom: 2%;
+    margin: 50px auto;
 }
 
 a{
   font-size: 18px;
-  padding-right: 20px;
 }
 
-.web-link{
-  font-size: 12px;
-}
 
 .firstSection{
   background-color: #00AFC1;
   padding-bottom: 30px;
+  padding-top: 2%;
 }
 .secondSection{
   background-color: #0093AB;
@@ -70,32 +74,123 @@ a{
   position: relative;
   left: 10%;
 }
+.skillPic{
+  width: 15%;
+}
 .dartsPicture{
-  width: 10%;
-  height: auto;
   border-radius: 100%;
+  float: left;
+  margin-right: 5%;
+}
+.gif-skill{
+float: right;
+margin-left: 5%;
 }
 .mePicture{
     width: 5%;
     height: auto;
     border-radius: 100%;
 }
-.gif-skill{
-  width: 10%;
-}
 
 .profile{
   padding-bottom: 1%;
 }
 .skill-row{
-  padding-bottom: 5%;
+  width: 45%;
+  margin: 50px auto 100px;
+  text-align: left;
 }
 
 
 .underline{
-  text-decoration-line: underline;
+    text-decoration-line: underline;
 }
 
-copyRight{
-  font-size: 0.5%;
+.web-link{
+  font-size: 75%;
+  color: blue;
+}
+.web-link:active {
+  color: #0099FF;
+}
+
+#copyRight{
+  font-size: 1rem;
+  color: white;
+}
+
+
+.footer-link{
+  width: 8%;
+  margin: auto 10px;
+}
+
+.SnapButton {
+	box-shadow: 1px 2px 5px 0 #fff6af;
+	background:linear-gradient(to bottom, #f8ff24 5%, #cc9c3d 100%);
+	background-color:#f8ff24;
+	border-radius:6px;
+	border:3px solid #ffaa22;
+	display:inline-block;
+	cursor:pointer;
+	color:#333333;
+	font-weight:bold;
+	padding:12px 30px;
+	text-decoration:none;
+	text-shadow:1px 2px 0 #ffed66;
+}
+.SnapButton:hover {
+background:linear-gradient(to bottom, #f8ff24 25%, #cc9c3d 100%);
+background-color:#f8ff24;
+}
+.SnapButton:active {
+	position:relative;
+	top:1px;
+}
+
+.InstaButton {
+	box-shadow: 1px 2px 5px 0 #9900ff;
+	background:linear-gradient(to bottom, #9900ff 5%, #ffc42e 100%);
+	background-color:#9900ff;
+	border-radius:6px;
+	border:3px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-weight:bold;
+	padding:12px 30px;
+	text-decoration:none;
+	text-shadow:1px 2px 0 #000000;
+}
+.InstaButton:hover {
+background:linear-gradient(to bottom, #9900ff 25%, #ffc42e 100%);
+background-color:#9900ff;
+}
+.InstaButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+.EmailButton {
+	box-shadow: 1px 2px 5px 0 #ffffff;
+	background:linear-gradient(to bottom, #00eeff 15%, #3064ff 100%);
+	background-color:#00eeff;
+	border-radius:6px;
+	border:3px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-weight:bold;
+	padding:12px 30px;
+	text-decoration:none;
+	text-shadow:1px 2px 0 #ffffff;
+}
+.EmailButton:hover {
+background:linear-gradient(to bottom, #00eeff 35%, #3064ff 100%);
+background-color:#00eeff;
+}
+.EmailButton:active {
+	position:relative;
+	top:1px;
 }
